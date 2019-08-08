@@ -27,15 +27,18 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+	
 }
 body {
 	line-height: 1;
+	width: 800px;
+	margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
 }
 blockquote, q {
-	quotes: none;
+	quotes: none;S
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -64,3 +67,88 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation {
+	color: grey;
+	display: inline-block;
+	margin: 0 25px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+a {
+	
+	color: grey;
+	display:inline-block;
+	padding: 0px 15px;
+	color: grey;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+hr {
+	width: 800px;
+	color: black;
+}
+
+.top-content {
+width: 100%;		
+}
+
+.bottom-content {
+width: 100%;	
+}
+
+.contact {
+	display: inline-block;
+}
+
+footer {
+	text-align: center;
+	width: 100%
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.content {
+    margin: 15px auto;
+    vertical-align: top;
+    display: inline-block;
+	width: 45%;	
+}
+
+.content2 {
+    margin: 15px auto;
+    vertical-align: top;
+    
+    display: inline-block;
+	width: 30%;	
+}
+
+.head-content {
+    margin: 15px auto;
+    vertical-align: top;
+    
+    display: inline-block;
+	
+}
+
+.circle {
+	vertical-align: top;	
+}
+
+.middle-img {
+	margin: 15px 0;
+    vertical-align: top;
+    
+    display: block;
+	width: 90%;	
+}
+
+button {
+	color: black;
+	font-family: 'Titillium Web', sans-serif;
+	background-color: white;
+	border: 1px solid black;
+}
